@@ -1,4 +1,4 @@
-var __extends =
+const __extends =
   (this && this.__extends) ||
   (function () {
     var extendStatics =
@@ -19,7 +19,7 @@ var __extends =
     };
   })();
 
-var Hocsinh = /** @class */ (function () {
+const Hocsinh = /** @class */ (function () {
   function Hocsinh(name, year, userno) {
     this.hoten = name;
     this.namsinh = year;
@@ -34,7 +34,7 @@ var Hocsinh = /** @class */ (function () {
   return Hocsinh;
 })();
 
-var bosung = /** @class */ (function (_super) {
+const bosung = /** @class */ (function (_super) {
   __extends(bosung, _super);
   function bosung() {
     return (_super !== null && _super.apply(this, arguments)) || this;
